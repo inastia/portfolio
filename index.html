@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+   <!-- bootstrap icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <title>Portfolio - Bigun</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+   <!-- /////////////////// HEADER /////////////////// -->
+   <header>
+      <!-- Navigation -->
+      <nav id="navbar" class="navbar navbar-expand-lg bg-light fixed-top px-5">
+         <!-- <div class="container-fluid px-5"> -->
+         <a class="navbar-brand" href="#">My Portfolio</a>
+
+         <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+         </button>
+
+         <div class="collapse navbar-collapse justify-content-center" id="navmenu">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a href="#frontend" class="nav-link active px-3">Frontend</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#backend" class="nav-link px-3">Backend</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#htmlEmails" class="nav-link px-3">HTML Emails</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#uxui" class="nav-link px-3">UX/UI</a>
+               </li>
+            </ul>
+         </div>
+         <button class="btn btn-sm btn-outline-primary my-2 my-sm-0 action-btn" type="button"
+            value="opens linkedin profile" onclick="window.open('https://www.linkedin.com/in/anastasiabigun/');"><i
+               class="bi bi-linkedin h5 pe-2 align-middle" aria-hidden="true"></i>Let's
+            Connect</button>
+
+         <!-- </div> -->
+      </nav>
+   </header>
+
+   <!-- /////////////////// CONTENT /////////////////// -->
+   <main>
+      <!-- About Me -->
+      <section class="p-5 text-center text-sm-start">
+         <div class="container pt-5 d-sm-flex">
+            <div class="row g-4 justify-content-between align-items-center">
+               <div class="col-md-6">
+                  <hgroup>
+                     <h5 class="mb-0 text-uppercase">Hello! I am</h5>
+                     <h1 class="display-3">Anastasia Bigun</h1>
+                  </hgroup>
+                  <p class="lead my-4">Full stack <span class="about-me-bold">web developer</span> passionate about
+                     building accessible products that solve real-life problems. When <span
+                        class="about-me-bold">focused on the user</span> every idea has
+                     the potential of becoming a solution.
+                  </p>
+                  <!-- skills -->
+                  <div class="h3">
+                     <img class="pe-2" src="images/icons/html.svg" alt="html5 icon">
+                     <img class="pe-2" src="images/icons/css.svg" alt="css3 icon">
+                     <img class="pe-2" src="images/icons/bootstrap.svg" alt="bootstrap icon">
+                     <img class="pe-2" src="images/icons/sass.svg" alt="sass icon">
+                     <img class="pe-2" src="images/icons/js.svg" alt="javascript icon">
+                     <img class="pe-2" src="images/icons/react.svg" alt="react icon">
+                     <img class="pe-2" src="images/icons/node.svg" alt="node.js icon">
+                     <img class="pe-2" src="images/icons/xd.svg" alt="adobe xd icon">
+                  </div>
+               </div>
+               <!-- 3D illustration -->
+               <div class="col-md-6 text-center">
+                  <figure class="d-none d-md-block">
+                     <img src="images/dev-girl.png" class="img-fluid" alt="programmer" title="">
+                  </figure>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- /////////////////// PROJECTS /////////////////// -->
+      <!-- Front End -->
+      <section id="frontend" class="projects-section p-5 text-sm-start">
+         <div class="container-fluid row g-4 pt-5 reveal">
+            <div class="p-3 col col-lg-4 col-md-12 col-sm-12">
+               <h1 class="projects-section-heading">Frontend</h1>
+            </div>
+
+            <div class="p-3 col col-lg-4 col-md-6 col-sm-12">
+               <div class="card shadow border-light" style="width: 18rem;">
+                  <div class="card-body card-hover-effect">
+                     <h5 class="card-title mb-5 mt-3">Travel Site</h5>
+                     <p class="card-text mb-5">Node.js, PostCSS</p>
+                     <div class="h3">
+                        <a href="https://github.com/inastia/travel-site" target="_blank" class="text-secondary"><i
+                              class="bi bi-github mx-1"></i></a>
+                        <a href="https://inastia.github.io/travel-site/" target="_blank" class="text-secondary"><i
+                              class="bi bi-globe mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="p-3 col col-lg-4 col-md-6 col-sm-12">
+               <div class="card shadow border-light" style="width: 18rem;">
+                  <div class="card-body card-hover-effect">
+                     <h5 class="card-title mb-5 mt-3">Manage Site</h5>
+                     <p class="card-text mb-5">Tailwind</p>
+                     <div class="h3 mt-5">
+                        <a href="https://github.com/inastia/manager-site" target="_blank" class="text-secondary"><i
+                              class="bi bi-github mx-1"></i></a>
+                        <a href="https://inastia.github.io/manager-site/" target="_blank" class="text-secondary"><i
+                              class="bi bi-globe mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div> <!-- reveal element ends -->
+      </section>
+
+      <!-- Back End -->
+      <section id="backend" class="projects-section p-5 text-sm-start">
+         <div class="container-fluid reveal row g-4 pt-5">
+            <div class="p-3 col-lg-4 col-md-12 col-sm-12">
+               <h1 class="projects-section-heading">Backend</h1>
+            </div>
+
+            <div class="p-3 col-lg-4 col-md-6 col-sm-12">
+               <div class="card shadow border-light" style="width: 18rem;">
+                  <div class="card-body card-hover-effect">
+                     <h5 class="card-title mb-5 mt-3">Keeper App</h5>
+                     <p class="card-text mb-5">React, Babel</p>
+                     <div class="h3">
+                        <a href="https://github.com/inastia/keeper-app" target="_blank" class="text-secondary"><i
+                              class="bi bi-github mx-1"></i></a>
+                        <a href="https://inastia.github.io/keeper-app" target="_blank" class="text-secondary"><i
+                              class="bi bi-globe mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="p-3 col-lg-4 col-md-6 col-sm-12">
+               <div class="card shadow border-light" style="width: 18rem;">
+                  <div class="card-body card-hover-effect">
+                     <h5 class="card-title mb-5 mt-3">QR Code Generator</h5>
+                     <p class="card-text mb-5">JavaScript</p>
+                     <div class="h3 mt-5">
+                        <a href="https://github.com/inastia/qr-code-generator" target="_blank" class="text-secondary"><i
+                              class="bi bi-github mx-1"></i></a>
+                        <a href="https://inastia.github.io/qr-code-generator/" target="_blank" class="text-secondary"><i
+                              class="bi bi-globe mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- HTML Emails -->
+      <section id="htmlEmails" class="projects-section p-5 text-sm-start">
+         <div class="container-fluid reveal row g-4 pt-5">
+            <div class="p-3 col-lg-4 col-md-12 col-sm-12">
+               <h1 class="projects-section-heading">HTML Emails</h1>
+            </div>
+
+            <div class="p-3 col-lg-4 col-md-6 col-sm-12">
+               <div class="card shadow border-light" style="width: 18rem;">
+                  <div class="card-body card-hover-effect">
+                     <h5 class="card-title mb-5 mt-3">Transaction</h5>
+                     <p class="card-text mb-5">Foundation</p>
+                     <div class="h3">
+                        <a href="#" target="_blank" class="text-secondary"><i class="bi bi-github mx-1"></i></a>
+                        <a href="https://dribbble.com/shots/20128058-HTML-Email-Transaction" target="_blank"
+                           class="text-secondary"><i class="bi bi-dribbble mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="p-3 col-lg-4 col-md-6 col-sm-12">
+               <div class="card shadow border-light" style="width: 18rem;">
+                  <div class="card-body card-hover-effect">
+                     <h5 class="card-title mb-5 mt-3">Promotion</h5>
+                     <p class="card-text mb-5">MJML</p>
+                     <div class="h3 mt-5">
+                        <a href="#" target="_blank" class="text-secondary"><i class="bi bi-github mx-1"></i></a>
+                        <a href="https://dribbble.com/shots/20127865-HTML-Email-Promotion" target="_blank"
+                           class="text-secondary"><i class="bi bi-dribbble mx-1"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- UX/UI -->
+      <section id="uxui" class="projects-section p-5 text-sm-start">
+         <div class="container-fluid reveal g-4 pt-5">
+            <div class="row">
+               <div class="p-3 col-lg-12">
+                  <h1 class="projects-section-heading">UX/UI</h1>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="p-3 col-sm-12 col-md-6">
+                  <div class="img-effect position-relative">
+                     <!-- image -->
+                     <img class="img-fluid rounded" src="images/acquisition-email.png" alt="email design">
+                     <!-- overlay content -->
+                     <div class="overlay simple-overlay position-absolute">
+                        <div class="overlay-text text-center">
+                           <h1 class="text-uppercase">Acquisition Email</h1>
+                           <p>Redesign of a marketing email</p>
+                           <div class="h3">
+                              <a href="https://dribbble.com/shots/20274962-HTML-Email-Acquisition" target="_blank"
+                                 class="text-secondary">
+                                 <i class="bi bi-dribbble text-light mx-1"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div> <!-- img 1 ends -->
+
+               <div class="p-3 col-sm-12 col-md-6">
+                  <div class="img-effect position-relative">
+                     <!-- image -->
+                     <img class="img-fluid rounded" src="images/learning-platform.png" alt="website design">
+                     <!-- overlay content -->
+                     <div class="overlay simple-overlay position-absolute">
+                        <div class="overlay-text text-center">
+                           <h1 class="text-uppercase">Learning Platform</h1>
+                           <p>Original landing page design</p>
+                           <div class="h3">
+                              <a href="https://dribbble.com/shots/20127426-Learning-Platform-Landing-Page"
+                                 target="_blank" class="text-secondary">
+                                 <i class="bi bi-dribbble text-light mx-1"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div> <!-- img 2 ends -->
+            </div> <!-- row ends -->
+         </div>
+      </section>
+   </main>
+   <!-- /////////////////// FOOTER /////////////////// -->
+   <footer class="bg-dark text-white text-center mt-auto">
+      <div class="container">
+         <div class="row">
+            <div class="p-3 h3 mb-0">
+               <a href="https://www.linkedin.com/in/anastasiabigun/" target="_blank" class=""><i
+                     class="bi bi-linkedin text-light mx-1"></i></a>
+               <a href="https://github.com/inastia?tab=repositories" target="_blank" class=""><i
+                     class="bi bi-github text-light mx-1"></i></a>
+               <a href="https://dribbble.com/itaso" target="_blank" class=""><i
+                     class="bi bi-dribbble text-light mx-1"></i></a>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- scripts -->
+   <script src="/assets/js/bootstrap.bundle.min.js"></script>
+   <script src="index.js"></script>
+
+</body>
+
+</html>
